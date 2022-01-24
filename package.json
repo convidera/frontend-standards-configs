@@ -4,5 +4,16 @@
   "devDependencies": {
     "lerna": "^4.0.0"
   },
+  "workspaces": [
+    "packages/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/convidera/frontend-standards-configs"
+  },
+  "scripts": {
+    "lerna:version": "lerna version --no-commit-hooks --no-changelog",
+    "lerna:publish": "lerna publish from-package"
+  },
   "packageManager": "yarn@3.1.1"
 }
