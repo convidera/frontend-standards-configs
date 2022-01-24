@@ -1,0 +1,21 @@
+{
+  "name": "@convidera-team/eslint-config-convidera",
+  "version": "0.0.0",
+  "description": "Eslint config used in Convidera",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Convidera",
+  "license": "ISC",
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "eslint-config-airbnb-base": "^15.0.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=8",
+    "eslint-plugin-import": "^2.25.4"
+  }
+}
