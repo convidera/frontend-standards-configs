@@ -4,7 +4,7 @@
 
 The monorepo contains multiple packages. Refer to their READMEs for more details:
 
-- stylelint-config-convidera
+- [stylelint-config-convidera](https://github.com/convidera/frontend-standards-configs/tree/main/packages/stylelint-config)
 
 ---
 
