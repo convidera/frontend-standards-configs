@@ -10,8 +10,6 @@
     }
   },
   "ignoreChanges": [
-    "*.md",
-    "*.txt",
     "__test__/**",
     "**/__tests__/**"
   ],
