@@ -1,0 +1,19 @@
+{
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "packages": [
+    "packages/*"
+  ],
+  "command": {
+    "version": {
+      "allowBranch": "main"
+    }
+  },
+  "ignoreChanges": [
+    "*.md",
+    "*.txt",
+    "__test__/**",
+    "**/__tests__/**"
+  ],
+  "version": "0.0.0"
+}
