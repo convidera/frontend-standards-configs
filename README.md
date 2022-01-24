@@ -20,4 +20,5 @@ yarn lerna:publish
 ---
 
 Read more about [version](https://github.com/lerna/lerna/tree/main/commands/version) and
-[publish](https://github.com/lerna/lerna/tree/main/commands/publish).
+[publish](https://github.com/lerna/lerna/tree/main/commands/publish) provided by
+[lerna](https://github.com/lerna/lerna).
