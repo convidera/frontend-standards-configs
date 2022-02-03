@@ -15,6 +15,7 @@ module.exports = {
         allowSingleLine: false,
       },
     ],
+    'import/prefer-default-export': 'off',
     curly: [
       'error',
       'all',
