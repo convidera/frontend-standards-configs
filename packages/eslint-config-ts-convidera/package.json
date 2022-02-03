@@ -12,7 +12,7 @@
     "index.js"
   ],
   "dependencies": {
-    "@convidera-team/eslint-config-convidera": "workspace:^",
+    "@convidera-team/eslint-config-convidera": ">=1",
     "@typescript-eslint/eslint-plugin": ">=5",
     "@typescript-eslint/parser": ">=5",
     "typescript": ">=4"
