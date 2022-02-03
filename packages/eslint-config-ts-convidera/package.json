@@ -1,6 +1,6 @@
 {
   "name": "@convidera-team/eslint-config-ts-convidera",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Eslint typescript config used in Convidera",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,7 @@
     "index.js"
   ],
   "dependencies": {
-    "@convidera-team/eslint-config-convidera": ">=1",
+    "@convidera-team/eslint-config-convidera": "^1.2.0",
     "@typescript-eslint/eslint-plugin": ">=5",
     "@typescript-eslint/parser": ">=5",
     "typescript": ">=4"

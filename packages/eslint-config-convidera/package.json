@@ -1,6 +1,6 @@
 {
   "name": "@convidera-team/eslint-config-convidera",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Eslint config used in Convidera",
   "main": "index.js",
   "scripts": {
