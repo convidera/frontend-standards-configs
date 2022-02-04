@@ -7,6 +7,7 @@ The monorepo contains multiple packages. Refer to their READMEs for more details
 - [stylelint-config-convidera](https://github.com/convidera/frontend-standards-configs/tree/main/packages/stylelint-config)
 - [eslint-config-convidera](https://github.com/convidera/frontend-standards-configs/tree/main/packages/eslint-config-convidera)
 - [eslint-config-ts-convidera](https://github.com/convidera/frontend-standards-configs/tree/main/packages/eslint-config-ts-convidera)
+- [eslint-config-vue3-convidera](https://github.com/convidera/frontend-standards-configs/tree/main/packages/eslint-config-vue3-convidera)
 
 ---
 

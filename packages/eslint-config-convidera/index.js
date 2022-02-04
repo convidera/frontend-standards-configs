@@ -16,6 +16,7 @@ module.exports = {
       },
     ],
     'import/prefer-default-export': 'off',
+    'import/no-extraneous-dependencies': 'off',
     curly: [
       'error',
       'all',
