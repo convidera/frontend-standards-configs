@@ -1,0 +1,25 @@
+{
+  "name": "@convidera-team/stylelint-config-vue-convidera",
+  "version": "0.0.0",
+  "description": "Stylelint config vue used in Convidera",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "index.js",
+    "stylelint.config.js"
+  ],
+  "dependencies": {
+    "@convidera-team/stylelint-config-convidera": ">=1",
+    "@mapbox/stylelint-processor-arbitrary-tags": ">=0"
+  },
+  "peerDependencies": {
+    "stylelint": ">=13"
+  },
+  "author": "Convidera",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  }
+}

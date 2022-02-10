@@ -32,7 +32,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@convidera-team/eslint-config-convidera@^1.2.0, @convidera-team/eslint-config-convidera@workspace:packages/eslint-config-convidera":
+"@convidera-team/eslint-config-convidera@^1.3.0, @convidera-team/eslint-config-convidera@workspace:packages/eslint-config-convidera":
   version: 0.0.0-use.local
   resolution: "@convidera-team/eslint-config-convidera@workspace:packages/eslint-config-convidera"
   dependencies:
@@ -43,11 +43,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@convidera-team/eslint-config-ts-convidera@>=1, @convidera-team/eslint-config-ts-convidera@workspace:packages/eslint-config-ts-convidera":
+"@convidera-team/eslint-config-ts-convidera@^1.1.0, @convidera-team/eslint-config-ts-convidera@workspace:packages/eslint-config-ts-convidera":
   version: 0.0.0-use.local
   resolution: "@convidera-team/eslint-config-ts-convidera@workspace:packages/eslint-config-ts-convidera"
   dependencies:
-    "@convidera-team/eslint-config-convidera": ^1.2.0
+    "@convidera-team/eslint-config-convidera": ^1.3.0
     "@typescript-eslint/eslint-plugin": ">=5"
     "@typescript-eslint/parser": ">=5"
     typescript: ">=4"
@@ -60,7 +60,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@convidera-team/eslint-config-vue3-convidera@workspace:packages/eslint-config-vue3-convidera"
   dependencies:
-    "@convidera-team/eslint-config-ts-convidera": ">=1"
+    "@convidera-team/eslint-config-ts-convidera": ^1.1.0
     eslint-plugin-vue: ">=8"
   peerDependencies:
     eslint: ">=8"
@@ -75,11 +75,22 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@convidera-team/stylelint-config-convidera@workspace:packages/stylelint-config":
+"@convidera-team/stylelint-config-convidera@>=1, @convidera-team/stylelint-config-convidera@workspace:packages/stylelint-config":
   version: 0.0.0-use.local
   resolution: "@convidera-team/stylelint-config-convidera@workspace:packages/stylelint-config"
   peerDependencies:
-    stylelint: ^13.13.1
+    stylelint: ">=13"
+  languageName: unknown
+  linkType: soft
+
+"@convidera-team/stylelint-config-vue-convidera@workspace:packages/stylelint-config-vue":
+  version: 0.0.0-use.local
+  resolution: "@convidera-team/stylelint-config-vue-convidera@workspace:packages/stylelint-config-vue"
+  dependencies:
+    "@convidera-team/stylelint-config-convidera": ">=1"
+    "@mapbox/stylelint-processor-arbitrary-tags": ">=0"
+  peerDependencies:
+    stylelint: ">=13"
   languageName: unknown
   linkType: soft
 
@@ -883,6 +894,16 @@ __metadata:
     npmlog: ^4.1.2
     write-file-atomic: ^3.0.3
   checksum: 87049543924f571c8dcbd5cec2f69a3e739d5b03826a7cb12a671b2f33f2d123d0abd787cf3ffcf3b974962958a7e4a9743ec9baa8ca612f86c61b55624ed37e
+  languageName: node
+  linkType: hard
+
+"@mapbox/stylelint-processor-arbitrary-tags@npm:>=0":
+  version: 0.4.0
+  resolution: "@mapbox/stylelint-processor-arbitrary-tags@npm:0.4.0"
+  dependencies:
+    execall: ^1.0.0
+    split-lines: ^1.1.0
+  checksum: 2dc12a9fc0555cecbc95ff7fb098c3d24251ed5279b0bb5f9e8fe3f12b5501288ef09c4b042abe9e1fc6ab2a90a0b3ae6f59d33053c92b2218fa9f8c552f5659
   languageName: node
   linkType: hard
 
@@ -1793,6 +1814,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"clone-regexp@npm:^1.0.0":
+  version: 1.0.1
+  resolution: "clone-regexp@npm:1.0.1"
+  dependencies:
+    is-regexp: ^1.0.0
+    is-supported-regexp-flag: ^1.0.0
+  checksum: 3b342e5d9d95dcfa9e53e6487d7d7e69d8f9beb27032e4866446333796c1d4a963bdb08586c21478be0bbaaee4b91ff4915d03f0709ac1b26487f707e1d71043
+  languageName: node
+  linkType: hard
+
 "clone@npm:^1.0.2":
   version: 1.0.4
   resolution: "clone@npm:1.0.4"
@@ -2563,6 +2594,15 @@ __metadata:
     signal-exit: ^3.0.3
     strip-final-newline: ^2.0.0
   checksum: fba9022c8c8c15ed862847e94c252b3d946036d7547af310e344a527e59021fd8b6bb0723883ea87044dc4f0201f949046993124a42ccb0855cae5bf8c786343
+  languageName: node
+  linkType: hard
+
+"execall@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "execall@npm:1.0.0"
+  dependencies:
+    clone-regexp: ^1.0.0
+  checksum: 3801e15635071fe12aa4ec6075b7706ed1dd8c3a3968022436ac116a8c359d14ec0ac53c37adf2831f2acb5c9e8ae2cd5695c05202cef07b1b34e7509c02bf92
   languageName: node
   linkType: hard
 
@@ -3429,6 +3469,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"is-regexp@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "is-regexp@npm:1.0.0"
+  checksum: be692828e24cba479ec33644326fa98959ec68ba77965e0291088c1a741feaea4919d79f8031708f85fd25e39de002b4520622b55460660b9c369e6f7187faef
+  languageName: node
+  linkType: hard
+
 "is-shared-array-buffer@npm:^1.0.1":
   version: 1.0.1
   resolution: "is-shared-array-buffer@npm:1.0.1"
@@ -3458,6 +3505,13 @@ __metadata:
   dependencies:
     has-tostringtag: ^1.0.0
   checksum: 323b3d04622f78d45077cf89aab783b2f49d24dc641aa89b5ad1a72114cfeff2585efc8c12ef42466dff32bde93d839ad321b26884cf75e5a7892a938b089989
+  languageName: node
+  linkType: hard
+
+"is-supported-regexp-flag@npm:^1.0.0":
+  version: 1.0.1
+  resolution: "is-supported-regexp-flag@npm:1.0.1"
+  checksum: b14f219ec11d246e41b249bbff17b29f85d274215b7ce8fb695789aa9ba877e761f6cee8d839d6270d38a60873450e1137d5eb24e4c45a61532b2ea4f417584f
   languageName: node
   linkType: hard
 
@@ -5460,6 +5514,13 @@ __metadata:
   version: 3.0.11
   resolution: "spdx-license-ids@npm:3.0.11"
   checksum: 1da1acb090257773e60b022094050e810ae9fec874dc1461f65dc0400cd42dd830ab2df6e64fb49c2db3dce386dd0362110780e1b154db7c0bb413488836aaeb
+  languageName: node
+  linkType: hard
+
+"split-lines@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "split-lines@npm:1.1.0"
+  checksum: 986f50d83ea85b3a79e6e7eaed2d38e6fa11cc2e810172d940866465a68c908c28387855639a2dbd9060553aba17f7e2781664a979e2840fbe151028cac3e191
   languageName: node
   linkType: hard
 

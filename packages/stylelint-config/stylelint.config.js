@@ -22,21 +22,11 @@ module.exports = {
     'declaration-block-no-shorthand-property-overrides': true,
     'block-no-empty': true,
     'selector-pseudo-class-no-unknown': true,
-    'selector-pseudo-element-no-unknown': [
-      true,
-      {
-        ignorePseudoElements: [
-          'v-deep',
-        ],
-      },
-    ],
     'selector-type-no-unknown': true,
     'media-feature-name-no-unknown': true,
     'comment-no-empty': true,
     'no-duplicate-at-import-rules': true,
     'no-duplicate-selectors': true,
-    // should be null for vue files support
-    'no-empty-source': null,
     'no-extra-semicolons': true,
     'alpha-value-notation': 'number',
     'hue-degree-notation': 'angle',
