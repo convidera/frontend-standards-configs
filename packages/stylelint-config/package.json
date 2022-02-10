@@ -1,6 +1,6 @@
 {
   "name": "@convidera-team/stylelint-config-convidera",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Stylelint config used in Convidera",
   "main": "index.js",
   "scripts": {
