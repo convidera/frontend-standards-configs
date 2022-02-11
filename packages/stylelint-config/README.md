@@ -21,3 +21,11 @@ module.exports = {
 ```
 
 ---
+
+## Changelog
+
+### 2.0.0
+
+- **Breaking**: supports `stylelint` v14.0.0 and above
+
+---

@@ -11,7 +11,7 @@
     "stylelint.config.js"
   ],
   "peerDependencies": {
-    "stylelint": ">=13"
+    "stylelint": ">=14"
   },
   "author": "Convidera",
   "license": "ISC",

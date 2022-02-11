@@ -12,10 +12,12 @@
   ],
   "dependencies": {
     "@convidera-team/stylelint-config-convidera": "^1.0.3",
-    "@mapbox/stylelint-processor-arbitrary-tags": ">=0"
+    "postcss-html": ">=1",
+    "stylelint-config-recommended-vue": ">=1",
+    "stylelint-config-standard-scss": ">=3"
   },
   "peerDependencies": {
-    "stylelint": ">=13"
+    "stylelint": ">=14"
   },
   "author": "Convidera",
   "license": "ISC",

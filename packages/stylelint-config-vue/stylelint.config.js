@@ -1,25 +1,7 @@
 module.exports = {
-  extends: '@convidera-team/stylelint-config-convidera',
-  processors: [
-    [
-      '@mapbox/stylelint-processor-arbitrary-tags',
-      {
-        fileFilterRegex: [
-          /\.vue$/,
-        ],
-      },
-    ],
+  extends: [
+    'stylelint-config-standard-scss',
+    'stylelint-config-recommended-vue',
+    '@convidera-team/stylelint-config-convidera',
   ],
-  rules: {
-    'selector-pseudo-element-no-unknown': [
-      true,
-      {
-        ignorePseudoElements: [
-          'v-deep',
-        ],
-      },
-    ],
-    // should be null for vue files support
-    'no-empty-source': null,
-  },
 };
