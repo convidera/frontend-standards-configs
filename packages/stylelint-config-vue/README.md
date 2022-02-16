@@ -1,7 +1,6 @@
 # Stylelint config with vue files support used in Convidera
 
-Extends [stylelint-config-recommended-vue](https://github.com/ota-meshi/stylelint-config-recommended-vue) and
-[stylelint-config-standard-scss](https://github.com/stylelint-scss/stylelint-config-standard-scss).
+Extends [stylelint-config-standard-scss](https://github.com/stylelint-scss/stylelint-config-standard-scss) and stylelint-config-html/vue.
 
 ## Installation
 
@@ -26,6 +25,10 @@ module.exports = {
 ---
 
 ## Changelog
+
+### 3.0.0
+
+- **Breaking**: remove stylelint-config-recommended-vue
 
 ### 2.0.0
 

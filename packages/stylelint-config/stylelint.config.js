@@ -67,5 +67,6 @@ module.exports = {
     'no-eol-whitespace': true,
     'no-missing-end-of-source-newline': true,
     'block-opening-brace-space-before': 'always',
+    'string-quotes': 'single',
   },
 };

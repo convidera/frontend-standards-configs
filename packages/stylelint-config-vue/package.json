@@ -13,7 +13,7 @@
   "dependencies": {
     "@convidera-team/stylelint-config-convidera": "^2.0.0",
     "postcss-html": ">=1",
-    "stylelint-config-recommended-vue": ">=1",
+    "stylelint-config-html": ">=1",
     "stylelint-config-standard-scss": ">=3"
   },
   "peerDependencies": {

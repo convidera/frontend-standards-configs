@@ -75,7 +75,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@convidera-team/stylelint-config-convidera@^1.0.3, @convidera-team/stylelint-config-convidera@workspace:packages/stylelint-config":
+"@convidera-team/stylelint-config-convidera@^2.0.0, @convidera-team/stylelint-config-convidera@workspace:packages/stylelint-config":
   version: 0.0.0-use.local
   resolution: "@convidera-team/stylelint-config-convidera@workspace:packages/stylelint-config"
   peerDependencies:
@@ -87,9 +87,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@convidera-team/stylelint-config-vue-convidera@workspace:packages/stylelint-config-vue"
   dependencies:
-    "@convidera-team/stylelint-config-convidera": ^1.0.3
+    "@convidera-team/stylelint-config-convidera": ^2.0.0
     postcss-html: ">=1"
-    stylelint-config-recommended-vue: ">=1"
+    stylelint-config-html: ^1.0.0
     stylelint-config-standard-scss: ">=3"
   peerDependencies:
     stylelint: ">=14"
@@ -5826,7 +5826,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint-config-html@npm:>=1.0.0":
+"stylelint-config-html@npm:^1.0.0":
   version: 1.0.0
   resolution: "stylelint-config-html@npm:1.0.0"
   peerDependencies:
@@ -5846,29 +5846,6 @@ __metadata:
   peerDependencies:
     stylelint: ^14.0.0
   checksum: e882bde8a0846c421e2662f9e7a9c2646120c492528f7ad715d927db6954b8a2499476de0792b15f0044217f72c81edc97afc640c5b4d7618a9f96dc7045e4c1
-  languageName: node
-  linkType: hard
-
-"stylelint-config-recommended-vue@npm:>=1":
-  version: 1.3.0
-  resolution: "stylelint-config-recommended-vue@npm:1.3.0"
-  dependencies:
-    semver: ^7.3.5
-    stylelint-config-html: ">=1.0.0"
-    stylelint-config-recommended: ">=6.0.0"
-  peerDependencies:
-    postcss-html: ^1.0.0
-    stylelint: ">=14.0.0"
-  checksum: d53543142bc65e93f9f785da71fde8305da56362559cd1aad50ab1fadfe6887ed864d72887d844703eefd75c9a499576b0f09f7c311731ad33a973011bdc7bf6
-  languageName: node
-  linkType: hard
-
-"stylelint-config-recommended@npm:>=6.0.0":
-  version: 7.0.0
-  resolution: "stylelint-config-recommended@npm:7.0.0"
-  peerDependencies:
-    stylelint: ^14.4.0
-  checksum: 9a60a59effb7565314d6001779a31228d5713b4d13e05e991e6da5f9d0784aacf55bc0fe217010e257a79136753a22ae61e309fb982367ebd4de3316f37eb821
   languageName: node
   linkType: hard
 
