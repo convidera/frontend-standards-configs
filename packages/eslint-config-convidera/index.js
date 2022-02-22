@@ -74,5 +74,7 @@ module.exports = {
       2,
       'unix',
     ],
+    'arrow-body-style': 0,
+    'prefer-destructuring': 0,
   },
 };
