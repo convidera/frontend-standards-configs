@@ -29,7 +29,7 @@ module.exports = {
     'no-extra-semicolons': true,
     'alpha-value-notation': 'number',
     'hue-degree-notation': 'angle',
-    'font-weight-notation': 'named-where-possible',
+    'font-weight-notation': null,
     'function-url-no-scheme-relative': true,
     'shorthand-property-no-redundant-values': true,
     'value-no-vendor-prefix': true,
@@ -73,5 +73,8 @@ module.exports = {
     'declaration-empty-line-before': null,
     'rule-empty-line-before': null,
     'declaration-block-no-redundant-longhand-properties': null,
+    'property-case': null,
+    'color-function-notation': 'legacy',
+    'max-line-length': null,
   },
 };
