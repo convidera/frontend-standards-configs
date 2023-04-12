@@ -1,3 +1,5 @@
+# ⚠️ Archived, please use https://github.com/convidera/frontend-kit
+
 # Configs for frontend code formatting/linting tools that are used in Convidera
 
 ## Packages
